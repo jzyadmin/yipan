@@ -6,6 +6,7 @@ import freemarker.template.TemplateDirectiveModel;
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;
 import net.sf.ehcache.Element;
+import org.jeecgframework.core.online.util.FreemarkerHelper;
 import org.jeecgframework.core.util.PropertiesUtil;
 import org.jeecgframework.web.cgform.common.CgAutoListConstant;
 import org.jeecgframework.web.cgform.service.config.CgFormFieldServiceI;
@@ -65,11 +66,10 @@ public class TempletContext {
 			return null;
 		}
 		String oldTableName = tableName;
-//        update-start--Author:zhangguoming  Date:20140922 for：根据ftlVersion动态读取模板
+
         if (ftlVersion != null && ftlVersion.length() > 0) {
             tableName = tableName + "&ftlVersion=" + ftlVersion;
         }
-//        update-end--Author:zhangguoming  Date:20140922 for：根据ftlVersion动态读取模板
         try {
 			if(CgAutoListConstant.SYS_MODE_DEV.equalsIgnoreCase(_sysMode)){//开发模式
 				template = freemarker.getTemplate(tableName,freemarker.getLocale(), ENCODING);
@@ -146,7 +146,6 @@ public class TempletContext {
 	public void setTags(Map<String, TemplateDirectiveModel> tags) {
 		this.tags = tags;
 	}
-	//update-begin--Author:张忠亮  Date:20151121 for：清除缓存
 	public void clearCache(){
 		try{
 			ehCache.removeAll();
@@ -154,5 +153,4 @@ public class TempletContext {
 
 		}
 	}
-	//update-end--Author:张忠亮  Date:20151121 for：清除缓存
 }

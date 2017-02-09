@@ -194,12 +194,10 @@ public class CgformFtlController extends BaseController {
 				cgformFtl.setFtlStatus("1");
 				cgformFtlService.saveOrUpdate(cgformFtl);
 				message = "激活成功";
-				//update-begin----date:20160721------for:清除缓存---------------------------------------------
 				CgFormHeadEntity po = systemService.getEntity(CgFormHeadEntity.class, cgformFtl.getCgformId());
 				templetContext.removeTemplateFromCache(po.getTableName()+"_"+TemplateUtil.TemplateType.ADD.getName());
 				templetContext.removeTemplateFromCache(po.getTableName()+"_"+TemplateUtil.TemplateType.DETAIL.getName());
 				templetContext.removeTemplateFromCache(po.getTableName()+"_"+TemplateUtil.TemplateType.UPDATE.getName());
-				//update-end----date:20160721------for:清除缓存----------------------------------------------
 				systemService.addLog(message, Globals.Log_Type_UPDATE,Globals.Log_Leavel_INFO);
 				j.setSuccess(true);
 				j.setMsg(message);
@@ -230,12 +228,10 @@ public class CgformFtlController extends BaseController {
 		AjaxJson j = new AjaxJson();
 		try {
 			cgformFtl = systemService.getEntity(CgformFtlEntity.class,cgformFtl.getId());
-			//update-begin----date:20160721------for:清除缓存----------------------------------------------
 			CgFormHeadEntity po = systemService.getEntity(CgFormHeadEntity.class, cgformFtl.getCgformId());
 			templetContext.removeTemplateFromCache(po.getTableName()+"_"+TemplateUtil.TemplateType.ADD.getName());
 			templetContext.removeTemplateFromCache(po.getTableName()+"_"+TemplateUtil.TemplateType.DETAIL.getName());
 			templetContext.removeTemplateFromCache(po.getTableName()+"_"+TemplateUtil.TemplateType.UPDATE.getName());
-			//update-end----date:20160721------for:清除缓存-----------------------------------------------
 			cgformFtl.setFtlStatus("0");
 			cgformFtlService.saveOrUpdate(cgformFtl);
 			message = "取消激活成功";
@@ -325,16 +321,20 @@ public class CgformFtlController extends BaseController {
 		sb.append("src=\"plug-in/Validform/js/Validform_Datatype_zh-cn.js\"></script><script type=\"text/javascript\" ");
 		sb.append("src=\"plug-in/Validform/js/datatype_zh-cn.js\"></script><script type=\"text/javascript\" ");
 		sb.append("src=\"plug-in/Validform/plugin/passwordStrength/passwordStrength-min.js\"></script>");
-		
-		sb.append("<script type=\"text/javascript\">$(function(){$(\"#formobj\").Validform({tiptype:4,");
+
+		//表单提交 js
+		sb.append("<script type=\"text/javascript\">$(function(){$(\"#formobj\").Validform({tiptype:1,");
 		sb.append("btnSubmit:\"#btn_sub\",btnReset:\"#btn_reset\",ajaxPost:true,usePlugin:{passwordstrength:");
 		sb.append("{minLen:6,maxLen:18,trigger:function(obj,error){if(error){obj.parent().next().");
 		sb.append("find(\".Validform_checktip\").show();obj.find(\".passwordStrength\").hide();}");
 		sb.append("else{$(\".passwordStrength\").show();obj.parent().next().find(\".Validform_checktip\")");
 		sb.append(".hide();}}}},callback:function(data){if(data.success");
-		sb.append("==true){if(!neibuClickFlag){var win = frameElement.api.opener;frameElement.api.close();win.tip(data.msg);win.reloadTable();}else {alert(data.msg)}}else{if(data.responseText==''||");
-		sb.append("data.responseText==undefined)$(\"#formobj\").html(data.msg);else $(\"#formobj\")");
-		sb.append(".html(data.responseText); return false;}if(!neibuClickFlag){var win = frameElement.api.opener;win.reloadTable();}}});});</script><body>");
+		sb.append("==true) {uploadFile(data);}else{ if (data.responseText == '' || data.responseText == undefined) {");
+		sb.append(" $.messager.alert('错误', data.msg); $.Hidemsg();} else {");
+		sb.append(" try { var emsg = data.responseText.substring(data.responseText.indexOf('错误描述'), data.responseText.indexOf('错误信息'));");
+		sb.append(" $.messager.alert('错误', emsg); $.Hidemsg();");
+		sb.append(" } catch(ex) { $.messager.alert('错误', data.responseText + '');}}return false;}");
+		sb.append("if (!neibuClickFlag) { var win = frameElement.api.opener;win.reloadTable(); }}});});</script><body>");
 		
 		sb.append("<div align=\"center\" id=\"sub_tr\" style=\"display: none;\"><input class=\"ui_state_highlight\" onclick=\"neibuClick()\" type=\"button\" value=\"提交\" /></div>");
 		sb.append("</body>");
@@ -626,7 +626,6 @@ public class CgformFtlController extends BaseController {
 //			System.out.println(json.getString("data"));
 //			// 判断有没有激活过的模板
 //			message = FormUtil.GetHtml(json.getString("parse"),json.getString("data"), action);
-			//update-begin--Author:jg_renjie  Date:20150706 for：更改解析前台传来的html
 			if(StringUtils.isNotBlank(parseForm)){
 				TemplateUtil tool = new TemplateUtil();
 				Map<String,Object> map = tool.processor(parseForm);
@@ -634,7 +633,6 @@ public class CgformFtlController extends BaseController {
 			} else {
 				j.setMsg("");
 			}
-			//update-end--Author:jg_renjie  Date:20150706 for：更改解析前台传来的html
 			j.setSuccess(true);
 		} catch (Exception e) {
 			logger.info(e.getMessage());
