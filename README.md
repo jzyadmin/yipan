@@ -80,8 +80,8 @@ JEECG 功能特点
 技术文档
 -----------------------------------
 * [JEECG 开发环境搭建入门](http://blog.csdn.net/zhangdaiscott/article/details/50915206)
-* [JEECG 开发入门视频](http://www.jeecg.org/forum.php?mod=viewthread&tid=197&extra=page%3D1)
-* [JEECG 入门常见问题](http://www.jeecg.org/forum.php?mod=viewthread&tid=1830&extra=page%3D1)
+* [JEECG 开发手册](http://git.oschina.net/jeecg/jeecg/attach_files)
+* [JEECG 常见问题贴](http://www.jeecg.org/forum.php?mod=viewthread&tid=1830&extra=page%3D1)
 * 在线演示地址：[http://demo.jeecg.org](http://demo.jeecg.org)
 * JEECG Maven镜像官方配置 => [http://t.cn/RJCp7wO](http://t.cn/RJCp7wO)
 
