@@ -85,6 +85,12 @@ JEECG 功能特点
 * 在线演示地址：[http://demo.jeecg.org](http://demo.jeecg.org)
 * JEECG Maven镜像官方配置 => [http://t.cn/RJCp7wO](http://t.cn/RJCp7wO)
 
+    
+技术交流
+-----------------------------------
+* 	作者：[张代浩](http://blog.csdn.net/zhangdaiscott)</br>
+* 	QQ交流群： ③289782002、②106838471(满)、①106259349(满)、④176031980(满)</br>
+
 
 
 JEECG云插件中心
@@ -93,12 +99,6 @@ JEECG云插件中心
 * 更多插件下载地址：[http://yun.jeecg.org/](http://yun.jeecg.org)
 ![github](http://img.blog.csdn.net/20160623162220022?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
 
-
-    
-技术交流
------------------------------------
-* 	作者：[张代浩](http://blog.csdn.net/zhangdaiscott)</br>
-* 	QQ交流群： ③289782002、②106838471(满)、①106259349(满)、④176031980(满)</br>
 
 
 社区荣誉
