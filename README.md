@@ -86,7 +86,7 @@ JEECG 功能特点
 * [JEECG 官方百度网盘](https://pan.baidu.com/share/home?uk=2668473880#category/type=0)
 * [JEECG 版本更新日志](http://www.jeecg.org/forum.php?mod=viewthread&tid=365&extra=page%3D1)
 * [JEECG 社区技术支持](http://www.jeecg.org/forum.php?mod=viewthread&tid=1249&extra=page%3D1)
-* JEECG 官方Maven镜像配置 => [http://t.cn/RJCp7wO](http://t.cn/RJCp7wO)
+* JEECG官方Maven镜像配置 : [http://t.cn/RJCp7wO](http://t.cn/RJCp7wO)
 * 在线演示地址：[http://demo.jeecg.org](http://demo.jeecg.org)
     
 技术交流
