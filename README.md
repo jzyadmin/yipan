@@ -82,11 +82,12 @@ JEECG 功能特点
 * [JEECG 开发环境搭建入门](http://blog.csdn.net/zhangdaiscott/article/details/50915206)
 * [JEECG 开发手册](http://git.oschina.net/jeecg/jeecg/attach_files)
 * [JEECG 常见问题贴](http://www.jeecg.org/forum.php?mod=viewthread&tid=1830&extra=page%3D1)
-* 在线演示地址：[http://demo.jeecg.org](http://demo.jeecg.org)
-* JEECG Maven镜像官方配置 => [http://t.cn/RJCp7wO](http://t.cn/RJCp7wO)
+* [JEECG 视频教程](http://www.jeecg.org/forum.php?mod=viewthread&tid=197&extra=page%3D1)
 * [JEECG 官方百度网盘](https://pan.baidu.com/share/home?uk=2668473880#category/type=0)
 * [JEECG 版本更新日志](http://www.jeecg.org/forum.php?mod=viewthread&tid=365&extra=page%3D1)
-
+* [JEECG 社区技术支持](http://www.jeecg.org/forum.php?mod=viewthread&tid=1249&extra=page%3D1)
+* JEECG 官方Maven镜像配置 => [http://t.cn/RJCp7wO](http://t.cn/RJCp7wO)
+* 在线演示地址：[http://demo.jeecg.org](http://demo.jeecg.org)
     
 技术交流
 -----------------------------------
