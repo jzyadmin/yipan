@@ -8,7 +8,6 @@ import java.util.Map;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 
-import org.jeecgframework.web.system.pojo.base.TSDepart;
 import org.hibernate.Session;
 import org.hibernate.criterion.DetachedCriteria;
 import org.jeecgframework.core.common.dao.ICommonDao;
@@ -18,7 +17,6 @@ import org.jeecgframework.core.common.hibernate.qbc.PageList;
 import org.jeecgframework.core.common.model.common.DBTable;
 import org.jeecgframework.core.common.model.common.UploadFile;
 import org.jeecgframework.core.common.model.json.ComboTree;
-import org.jeecgframework.core.common.model.json.DataGridReturn;
 import org.jeecgframework.core.common.model.json.ImportFile;
 import org.jeecgframework.core.common.model.json.TreeGrid;
 import org.jeecgframework.core.common.service.CommonService;
@@ -26,6 +24,7 @@ import org.jeecgframework.tag.vo.datatable.DataTableReturn;
 import org.jeecgframework.tag.vo.easyui.Autocomplete;
 import org.jeecgframework.tag.vo.easyui.ComboTreeModel;
 import org.jeecgframework.tag.vo.easyui.TreeGridModel;
+import org.jeecgframework.web.system.pojo.base.TSDepart;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
