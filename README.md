@@ -103,7 +103,6 @@ JEECG 功能特点
 * 	官方论坛： [http://www.jeecg.org](http://www.jeecg.org)
 * 	官方网站： [http://www.guojusoft.com](http://www.guojusoft.com)
 * 	官方博客： [http://blog.csdn.net/zhangdaiscott](http://blog.csdn.net/zhangdaiscott)
-* 	技术支持： [JEECG社区官方支持QQ群汇总](http://www.jeecg.org/forum.php?mod=viewthread&tid=1249&extra=page%3D1)
 
 
 
