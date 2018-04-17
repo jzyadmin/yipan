@@ -86,14 +86,14 @@ JEECG 功能特点
 
 技术文档
 -----------------------------------
-* 演示地址：[http://demo.jeecg.org](http://demo.jeecg.org)
+* [在线演示](http://demo.jeecg.org)
 * [JEECG_开发工具](http://blog.csdn.net/zhangdaiscott/article/details/78072438)
-* [JEECG 开发环境搭建入门](http://blog.csdn.net/zhangdaiscott/article/details/50915206)
+* [JEECG 开发环境入门](http://blog.csdn.net/zhangdaiscott/article/details/50915206)
 * [JEECG 常见问题贴](http://www.jeecg.org/forum.php?mod=viewthread&tid=1830&extra=page%3D1)
 * [JEECG 视频教程](https://edu.csdn.net/lecturer/929)
 * [JEECG 版本日志](http://www.jeecg.org/forum.php?mod=viewthread&tid=365&extra=page%3D1)
 * [JEECG Maven本地仓库下载](http://git.oschina.net/jeecg/jeecg-local-maven)
-* [JEECG 开发手册](http://git.oschina.net/jeecg/jeecg/attach_files)
+* [JEECG 开发手册](http://jeecg3.mydoc.io)
     
 技术交流
 -----------------------------------
