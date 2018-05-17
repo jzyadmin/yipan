@@ -14,7 +14,7 @@
 		<table id="${entityName?uncap_first}List"></table>  
 	</div>
 	<div id = "${entityName?uncap_first}ListToolbar">
-		<div class="easyui-panel toolbar-search" style="display:none">
+		<div class="easyui-panel toolbar-search" style="display:none" data-options="doSize:false">
 			<form id="${entityName?uncap_first}Form" onkeydown="if(event.keyCode==13){doSearch();return false;}">
 			<#list columns as po>
 				<#if po.isQuery =='Y'>

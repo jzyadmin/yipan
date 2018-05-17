@@ -299,7 +299,23 @@
 	var dailogForm = $("#dailogForm").Validform({
 		tiptype:function(msg,o,cssctl){
 			if(o.type==3){
-				validationMessage(o.obj,msg);
+				var oopanel = $(o.obj).closest(".el-tab-pane");
+				var a = 0;
+				if(oopanel.length>0){
+					var panelID = oopanel.attr("id");
+					if(!!panelID){
+						var waitActive = $("#tab-"+panelID.substring(panelID.indexOf("-")+1));
+						if(!waitActive.attr(".aria-selected")){
+							waitActive.click();
+							a = 1;
+						}
+					}
+				}
+				if(a==1){
+					setTimeout(function(){validationMessage(o.obj,msg);},366);
+				}else{
+					validationMessage(o.obj,msg);
+				}
 			}else{
 				removeMessage(o.obj);
 			}
