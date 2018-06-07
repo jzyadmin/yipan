@@ -2,6 +2,7 @@ JEECG 微云快速开发平台
 ===============
 
 当前最新版本： 3.7.6（发布日期：20180607）
+
 JEECG微服务架构： [jeecg-p3](https://gitee.com/jeecg/jeecg-p3)
 
 前言：
