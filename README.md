@@ -108,8 +108,7 @@ JEECG 功能特点
 * 	官方论坛： [http://www.jeecg.org](http://www.jeecg.org)
 * 	官方博客： [http://blog.csdn.net/zhangdaiscott](http://blog.csdn.net/zhangdaiscott)
 * 	关注官方微信公众号，获取更多资讯
-     
-![github](https://img.blog.csdn.net/20180309123201691 "jeecg")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09172938_ltsb.jpg "在这里输入图片标题")
 
 
 社区荣誉
@@ -158,8 +157,16 @@ JEECG 功能特点
 ![输入图片说明](https://static.oschina.net/uploads/img/201804/19165540_CizC.jpg "在这里输入图片标题")
 ![输入图片说明](https://static.oschina.net/uploads/img/201807/09170233_i84Q.png "在这里输入图片标题")
 
+###  [3].流程组件演示
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171414_X1ee.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171521_bghO.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171532_NoB0.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171539_gh87.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171656_QTea.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171705_CTug.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171845_83W0.png "在这里输入图片标题")
 
-###  [3].报表演示（在线配置报表）
+###  [4].报表演示（在线配置报表）
 ![输入图片说明](https://static.oschina.net/uploads/img/201807/09170858_40eu.png "在这里输入图片标题")
 ![输入图片说明](https://static.oschina.net/uploads/img/201807/09170906_l8g0.png "在这里输入图片标题")
 ![输入图片说明](https://static.oschina.net/uploads/img/201807/09170916_KkLG.png "在这里输入图片标题")
@@ -169,21 +176,13 @@ JEECG 功能特点
 ![输入图片说明](https://static.oschina.net/uploads/img/201807/09171047_38JE.png "在这里输入图片标题")
 ![输入图片说明](https://static.oschina.net/uploads/img/201807/09170949_FWks.png "在这里输入图片标题")
 
-###  [4].移动报表演示
+###  [5].移动报表演示
 ![输入图片说明](https://static.oschina.net/uploads/img/201804/19165909_OXfn.png "在这里输入图片标题")
 ![输入图片说明](https://static.oschina.net/uploads/img/201804/19165929_OnoB.png "在这里输入图片标题")
 ![输入图片说明](https://static.oschina.net/uploads/img/201804/19165943_eyQF.png "在这里输入图片标题")
 ![输入图片说明](https://static.oschina.net/uploads/img/201804/19165955_tJkX.png "在这里输入图片标题")
 ![输入图片说明](https://static.oschina.net/uploads/img/201804/19170011_9CWF.png "在这里输入图片标题")
 
-###  [5].流程组件演示
-![输入图片说明](https://static.oschina.net/uploads/img/201807/09171414_X1ee.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201807/09171521_bghO.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201807/09171532_NoB0.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201807/09171539_gh87.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201807/09171656_QTea.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201807/09171705_CTug.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201807/09171845_83W0.png "在这里输入图片标题")
 
 ###  [6].移动OA演示
 ![输入图片说明](https://static.oschina.net/uploads/img/201804/19173027_byRC.png "在这里输入图片标题")
