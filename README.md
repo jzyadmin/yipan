@@ -140,14 +140,12 @@ JEECG 功能特点
 系统演示
 -----------------------------------
 ###  [1].多套首页风格，支持自定义（Bootstrap风格|云桌面风格|经典风格|Shortcut风格等）
-![github](https://static.oschina.net/uploads/img/201804/19165228_m0uh.png "jeecg")
-![github](https://static.oschina.net/uploads/img/201804/19165247_As6v.png "jeecg")
-![github](https://static.oschina.net/uploads/img/201804/19165319_weTW.png "jeecg")
-![github](https://static.oschina.net/uploads/img/201804/19165334_rpbq.png "jeecg")
-![github](https://static.oschina.net/uploads/img/201804/19173326_CrST.jpg "jeecg")
-![github](https://static.oschina.net/uploads/img/201804/19165359_lVDa.png "jeecg")
-![github](https://static.oschina.net/uploads/img/201804/19165418_owlK.png "jeecg")
-![github](https://static.oschina.net/uploads/img/201804/19165434_Vbl5.png "jeecg")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09163742_IbMJ.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164411_zSuo.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164423_JfhR.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164434_NSLt.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164152_hxHU.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164204_uVWu.jpg "在这里输入图片标题")
 
 ###  [2].表单自定义设计效果
 ![github](https://static.oschina.net/uploads/img/201804/19165502_dxTD.jpg "jeecg")
