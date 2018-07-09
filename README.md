@@ -108,6 +108,7 @@ JEECG 功能特点
 * 	官方论坛： [http://www.jeecg.org](http://www.jeecg.org)
 * 	官方博客： [http://blog.csdn.net/zhangdaiscott](http://blog.csdn.net/zhangdaiscott)
 * 	关注官方微信公众号，获取更多资讯
+
 ![输入图片说明](https://static.oschina.net/uploads/img/201807/09172938_ltsb.jpg "在这里输入图片标题")
 
 
