@@ -104,9 +104,7 @@ JEECG 功能特点
 工程说明
 -----------------------------------
 * 关于项目插件打包使用说明：
-* 一些不常变动的插件，例如My97DatePicker，lhgDialog等组件
-* 为提高项目加载效率，打包成jar项目引用加载，如需要更改相关插件源码，可在如下地址下载工程引入
-* [JEECG UI组件工程](https://gitee.com/jeecg/jeecg-common-plugin-ui)
+一些不常变动的插件，例如My97DatePicker，lhgDialog等组件，为提高项目加载效率，打包成jar项目引用加载，如需要更改相关插件源码，可下载工程引入[JEECG UI组件工程](https://gitee.com/jeecg/jeecg-common-plugin-ui)
     
 技术交流
 -----------------------------------
