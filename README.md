@@ -1,9 +1,9 @@
 
 
 ![image](https://github.com/jzyadmin/yipan/blob/master/docs/image/01.png)
-![image](https://github.com/jzyadmin/yipan/blob/master/docs/image/02.png)
-![image](https://github.com/jzyadmin/yipan/blob/master/docs/image/03.png)
-![image](https://github.com/jzyadmin/yipan/blob/master/docs/image/04.png)
+![image](https://github.com/jzyadmin/yipan/blob/master/docs/image/02.jpg)
+![image](https://github.com/jzyadmin/yipan/blob/master/docs/image/03.jpg)
+![image](https://github.com/jzyadmin/yipan/blob/master/docs/image/04.jpg)
 ## 1 our goal
 How to improve the income level of people in poverty-stricken areas so that they can eat and enjoy better education
 Looking for a form of site construction, recycling resources, reducing construction waste and reducing carbon emissions.
