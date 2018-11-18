@@ -23,19 +23,19 @@ public class JeecgOneToMainUtil {
 	public static void main(String[] args) {
 		//第一步：设置主表配置
 		CodeParamEntity codeParamEntityIn = new CodeParamEntity();
-		codeParamEntityIn.setTableName("jform_order_main");//表名
-		codeParamEntityIn.setEntityName("TestOrderMain");	 //实体名
-		codeParamEntityIn.setEntityPackage("test");	 //包名
-		codeParamEntityIn.setFtlDescription("订单");	 //描述
+		codeParamEntityIn.setTableName("itembase");//表名
+		codeParamEntityIn.setEntityName("ItemBase");	 //实体名
+		codeParamEntityIn.setEntityPackage("yipan");	 //包名
+		codeParamEntityIn.setFtlDescription("商品");	 //描述
 		
 		//第二步：设置子表集合配置
 		List<SubTableEntity> subTabParamIn = new ArrayList<SubTableEntity>();
 		//[1].子表一
 		SubTableEntity po = new SubTableEntity();
-		po.setTableName("jform_order_customer");//表名
-		po.setEntityName("TestOrderCustom");	    //实体名
-		po.setEntityPackage("test");	        //包名
-		po.setFtlDescription("客户明细");       //描述
+		po.setTableName("spitembasepkg");//表名
+		po.setEntityName("SpItemBasePkg");	    //实体名
+		po.setEntityPackage("yipan");	        //包名
+		po.setFtlDescription("自定义单位");       //描述
 		//子表外键参数配置
 		/*说明: 
 		 * a) 子表引用主表主键ID作为外键，外键字段必须以_ID结尾;
@@ -46,10 +46,10 @@ public class JeecgOneToMainUtil {
 		subTabParamIn.add(po);
 		//[2].子表二
 		SubTableEntity po2 = new SubTableEntity();
-		po2.setTableName("jform_order_ticket");		//表名
-		po2.setEntityName("TestOrderTicket");			//实体名
-		po2.setEntityPackage("test"); 				//包名
-		po2.setFtlDescription("产品明细");			//描述
+		po2.setTableName("itembasepkg");		//表名
+		po2.setEntityName("ItemBasePkg");			//实体名
+		po2.setEntityPackage("yipan"); 				//包名
+		po2.setFtlDescription("单位明细");			//描述
 		//子表外键参数配置
 		/*说明: 
 		 * a) 子表引用主表主键ID作为外键，外键字段必须以_ID结尾;

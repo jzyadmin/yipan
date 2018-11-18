@@ -72,7 +72,6 @@ public class JeecgDemoExcelController extends BaseController {
 	private SystemService systemService;
 	@Autowired
 	private Validator validator;
-	
 
 
 	/**
